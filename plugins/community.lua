@@ -22,4 +22,5 @@ return {
     },
   },
   { import = "astrocommunity.colorscheme.everforest" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" }
 }
