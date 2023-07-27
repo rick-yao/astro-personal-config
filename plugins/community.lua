@@ -22,5 +22,6 @@ return {
     },
   },
   { import = "astrocommunity.colorscheme.everforest" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" }
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.motion.nvim-surround" }
 }
