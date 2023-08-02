@@ -7,6 +7,8 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    -- rick : add dash as whole word
+    iskeyword = vim.opt.iskeyword + { "-" }, -- sets vim.opt.iskeyword
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
