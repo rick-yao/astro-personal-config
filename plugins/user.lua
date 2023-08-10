@@ -24,4 +24,20 @@ return {
   {
     "jose-elias-alvarez/typescript.nvim",
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        tsserver = {
+          settings = {
+            typescript = {
+              preferences = {
+                importModuleSpecifier = "project-relative",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 }
