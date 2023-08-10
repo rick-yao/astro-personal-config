@@ -15,6 +15,9 @@ return {
           },
           never_show = {},
         },
+      },
+      window = {
+        position = 'right'
       }
     }
   },
