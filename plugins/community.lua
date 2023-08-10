@@ -24,5 +24,5 @@ return {
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.motion.nvim-surround" },
-  { import = "astrocommunity.editing-support.todo-comments-nvim" }
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
