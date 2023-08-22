@@ -3,23 +3,23 @@
     "prefix": "rfc",
     "body": [
       "type Props = {$1}",
-      "export default function $TM_FILENAME_BASE ({}:Props) {return <div>rfc</div>}"
+      "export default function $TM_FILENAME_BASE ({}:Props) {return <div>$TM_FILENAME_BASE</div>}"
     ],
     "description": "react default function component",
     "luasnip": {
-      "priority": 1
+      "priority": 1002
     }
   },
   "react arrow function component": {
     "prefix": "rff",
     "body": [
       "type Props = {$1}",
-      "const $TM_FILENAME_BASE=({}:Props)=>{return <div>rfc</div>}",
+      "const $TM_FILENAME_BASE=({}:Props)=>{return <div>$TM_FILENAME_BASE</div>}",
       "export {$TM_FILENAME_BASE}"
     ],
     "description": "react arrow function component",
     "luasnip": {
-      "priority": 2
+      "priority": 1003
     }
   }
 }

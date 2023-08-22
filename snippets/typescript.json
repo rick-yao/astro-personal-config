@@ -10,7 +10,7 @@
     ],
     "description": "custom function",
     "luasnip": {
-      "priority": 1
+      "priority": 1001
     }
   }
 }
