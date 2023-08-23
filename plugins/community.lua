@@ -26,4 +26,5 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
