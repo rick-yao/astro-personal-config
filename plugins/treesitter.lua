@@ -32,5 +32,13 @@ return {
         },
       },
     }
+    opts.incremental_selection = {
+      -- enable = true,
+      keymaps = {
+        node_incremental = "<CR>",
+      --   scope_incremental = "<CR>",
+        node_decremental = "<BS>",
+      },
+    }
   end,
 }
