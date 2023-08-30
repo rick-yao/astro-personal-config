@@ -53,23 +53,17 @@ return {
     servers = {
       -- "pyright"
     },
-    setup_handlers = {
-      -- add custom handler
-      tsserver = function(_, opts)
-        local typescript_setup, typescript = pcall(require, "typescript")
-        if not typescript_setup then return end
-        typescript.setup {
-          server = {
-            capabilities = opts.capabilities,
-            on_attach = opts.on_attach,
-            init_options = {
-              preferences = {
-                importModuleSpecifierPreference = "non-relative",
-              },
-            },
+    config = {
+      tsserver = {
+        init_options = {
+          preferences = {
+            importModuleSpecifierPreference = "non-relative",
           },
-        }
-      end,
+        },
+      },
+    },
+    setup_handlers = {
+      tsserver = function(_, opts) require("typescript").setup { server = opts } end,
     },
   },
 
