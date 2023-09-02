@@ -3,6 +3,7 @@
     "prefix": "rfc",
     "body": [
       "type Props = {$1}",
+      "",
       "export default function $TM_FILENAME_BASE ({}:Props) {return <div>$TM_FILENAME_BASE</div>}"
     ],
     "description": "react default function component",
@@ -14,7 +15,9 @@
     "prefix": "rff",
     "body": [
       "type Props = {$1}",
+      "",
       "const $TM_FILENAME_BASE=({}:Props)=>{return <div>$TM_FILENAME_BASE</div>}",
+      "",
       "export {$TM_FILENAME_BASE}"
     ],
     "description": "react arrow function component",
