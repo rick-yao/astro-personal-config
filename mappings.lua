@@ -25,6 +25,14 @@ return {
     ["<leader>ff"] = { function() require("telescope.builtin").find_files { hidden = true } end, desc = "Find files" },
     ["<leader>ft"] = { ":TodoTelescope<cr>", desc = "Find TODO" },
     ["<leader>lt"] = { ":TypescriptRemoveUnused<cr>", desc = "TypescriptRemoveUnused" },
+    ["<leader>bR"] = {
+      function() require("astronvim.utils.buffer").close_right() end,
+      desc = "Close all buffers to the right",
+    },
+    ["<leader>br"] = {
+      function() require("smart-splits").start_resize_mode() end,
+      desc = "Start resize mode , esc to exit",
+    },
   },
   t = {
     -- setting a mapping to false will disable it

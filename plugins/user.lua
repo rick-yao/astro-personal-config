@@ -17,8 +17,14 @@ return {
         },
       },
       window = {
-        position = 'right'
-      }
-    }
+        position = "right",
+      },
+    },
+  },
+  {
+    "mrjones2014/smart-splits.nvim",
+    opts = { resize_mode = {
+      silent = true,
+    } },
   },
 }
