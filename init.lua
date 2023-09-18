@@ -61,6 +61,20 @@ return {
           },
         },
       },
+      tailwindcss = {
+        settings = {
+          tailwindCSS = {
+            experimental = {
+              classRegex = {
+                "cva\\(([^)]*)\\)",
+                "[\"'`]([^\"'`]*).*?[\"'`]",
+                "cx\\(([^)]*)\\)",
+                "(?:'|\"|`)([^']*)(?:'|\"|`)",
+              },
+            },
+          },
+        },
+      },
     },
     setup_handlers = {
       tsserver = function(_, opts) require("typescript").setup { server = opts } end,
