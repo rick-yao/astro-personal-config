@@ -8,7 +8,7 @@ return {
 			-- this can be used if your configuration lives in ~/.config/nvim
 			-- if your configuration lives in ~/.config/astronvim, the full path
 			-- must be specified in the next line
-			paths = { "~/.config/AstroNvim/lua/user/snippets" }
+			paths = { "~/.config/nvim/lua/user/snippets" }
 		}
 	end,
 }
