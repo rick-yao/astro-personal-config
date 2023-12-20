@@ -27,6 +27,17 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  {
+    "folke/todo-comments.nvim",
+    opts ={
+      highlight ={
+        pattern = [[.*<(KEYWORDS)\s*]], -- pattern or table of patterns, used for highlighting (vim regex)
+      },
+      search={
+        pattern = [[\b(KEYWORDS)]], -- ripgrep regex
+      }
+    }
+  },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.pack.rust" },
