@@ -41,4 +41,5 @@ return {
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.vue" },
 }

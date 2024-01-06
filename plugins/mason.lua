@@ -17,7 +17,6 @@ return {
         "jsonls",
         "tailwindcss",
         "tsserver",
-        "volar",
         "bufls"
       })
     end,
