@@ -27,4 +27,7 @@ return {
       silent = true,
     } },
   },
+  {
+    "rebelot/kanagawa.nvim",
+  },
 }
