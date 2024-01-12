@@ -29,17 +29,18 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   {
     "folke/todo-comments.nvim",
-    opts ={
-      highlight ={
+    opts = {
+      highlight = {
         pattern = [[.*<(KEYWORDS)\s*]], -- pattern or table of patterns, used for highlighting (vim regex)
       },
-      search={
+      search = {
         pattern = [[\b(KEYWORDS)]], -- ripgrep regex
-      }
-    }
+      },
+    },
   },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.project.nvim-spectre" },
 }
