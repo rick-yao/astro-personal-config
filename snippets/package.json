@@ -19,7 +19,10 @@
       },
       {
         "language": [
-          "all"
+          "typescript",
+          "typescriptreact",
+          "javascript",
+          "javascriptreact"
         ],
         "path": "./globalSnippet.json"
       }
