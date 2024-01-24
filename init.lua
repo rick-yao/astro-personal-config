@@ -18,8 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "kanagawa",
-  -- colorscheme = "catppuccin-frappe",
+  -- colorscheme = "kanagawa",
+  colorscheme = "catppuccin-latte",
   -- colorscheme = "onedark_vivid",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
