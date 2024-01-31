@@ -43,4 +43,5 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.completion.copilot-lua" },
 }
